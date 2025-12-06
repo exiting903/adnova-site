@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 
 // --- ДАННЫЕ ДЛЯ ЛЕГКОГО РЕДАКТИРОВАНИЯ ---
 
-const heroImage = "masinka.jpg";
+const heroImage = "/masinka.jpg";
 
 // 2. ВЫПОЛНЕННЫЕ РАБОТЫ (Добавил 2 блока, теперь всего 5)
 const worksData = [
@@ -11,31 +11,31 @@ const worksData = [
     id: 1,
     title: "Брендирование транспорта",
     desc: "Полная оклейка грузовика в фирменном стиле Gorilla Energy.",
-    img: "gorilla.jpg"
+    img: "/gorilla.jpg"
   },
   {
     id: 2,
     title: "Комплект фасадных табличек - Министерство цифровых технологий РУз",
     desc: "Изготовление официальных фасадных табличек для структур Министерства цифровых технологий Узбекистана. Использованы премиальные металлические панели, фрезеровка и долговечные покрытия.",
-    img: "uzgov.jpg"
+    img: "/uzgov.jpg"
   },
   {
     id: 3,
     title: "Декоративные картины со звездой",
     desc: "Минималистичные премиальные картины с объемной металлической звездой и рамой с золотым покрытием. Отличный вариант для интерьера или подарка.",
-    img: "pezda.jpg"
+    img: "/pezda.jpg"
   },
   {
     id: 4,
     title: "Двусторонний/Односторонний круглый лайтбокс (Консольная вывеска).",
     desc: "Вывеска выполнена из акрила с аппликацией из транслюцентной пленки по периметру и лицевой части. Основа – корпус из ПВХ с внутренней LED-подсветкой для равномерного свечения.",
-    img: "lightbox.jpg"
+    img: "/lightbox.jpg"
   },
   {
     id: 5,
     title: "Вывеска на стене ",
     desc: "Фасадная декоративная вывеска с контурной подсветкой. Вывеска выполнена из композитных материалов с применением УФ-печати для передачи сложного этнического узора (Икат)",
-    img: "viveska.jpg"
+    img: "/viveska.jpg"
   }
 ];
 
@@ -65,7 +65,7 @@ const reviewsData = [
 
 const Logo = () => (
   <div className="flex items-center gap-2">
-    <img src="logoad.png" alt="Logo" className="h-10 w-auto object-contain" />
+    <img src="/logoad.png" alt="Logo" className="h-10 w-auto object-contain" />
     
     <span className="font-header font-bold text-lg tracking-widest text-black">ADNOVA</span>
   </div>
