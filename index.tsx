@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 
 // --- ДАННЫЕ ДЛЯ ЛЕГКОГО РЕДАКТИРОВАНИЯ ---
 
-const heroImage = "/masinka.jpg";
+const heroImage = "/mashinka.jpg";
 
 // 2. ВЫПОЛНЕННЫЕ РАБОТЫ (Добавил 2 блока, теперь всего 5)
 const worksData = [
