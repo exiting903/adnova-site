@@ -39,27 +39,27 @@ const worksData = [
   }, 
   {
     id: 6,
-    title: "text",
-    desc: "text",
-    img: "/img"
+    title: "Рекламная стела на металлокаркасе.",
+    desc: "Облицовка зеркальным АКП. Сложная фрезеровка, световые акриловые элементы.",
+    img: "/newyear.jpg"
   },
   {
     id: 7,
-    title: "text",
-    desc: "text",
-    img: "/img"
+    title: "Объемные световые буквы.",
+    desc: "Лицо — акрил, борт — ПВХ (Фомакс). Скрытый металлокаркас, яркая LED-подсветка.",
+    img: "svetbukvi.jpg"
   },
     {
     id: 8,
-    title: "text",
-    desc: "text",
-    img: "/img"
+    title: "Серийное производство бейджей из акрила.",
+    desc: "Прямая УФ-печать по матовой основе.",
+    img: "/samsung.jpg"
   },
   {
     id: 9,
-    title: "text",
-    desc: "text",
-    img: "/img"
+    title: "Объемные буквы из акрила (металлизированный эффект).",
+    desc: "Изготовление с помощью высокоточной лазерной резки.",
+    img: "/bukvi.jpg"
   },
 ];
 
@@ -328,7 +328,7 @@ const App = () => {
           
           <div className="flex overflow-x-auto gap-4 pb-6 snap-x snap-mandatory hide-scrollbar">
             {worksData.map((work) => (
-              <div key={work.id} className="snap-center shrink-0 w-72 bg-adnova-cream border border-blue-400 rounded-[2rem] overflow-hidden shadow-card flex flex-col">
+              <div key={work.id} className="snap-center shrink-0 w-72 bg-adnova-cream border border-blue-1000 rounded-[2rem] overflow-hidden shadow-card flex flex-col">
                 <div className="h-48 overflow-hidden">
                   <img src={work.img} alt={work.title} className="w-full h-full object-cover" />
                 </div>
