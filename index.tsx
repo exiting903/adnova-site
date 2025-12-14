@@ -328,7 +328,7 @@ const App = () => {
           
           <div className="flex overflow-x-auto gap-4 pb-6 snap-x snap-mandatory hide-scrollbar">
             {worksData.map((work) => (
-              <div key={work.id} className="snap-center shrink-0 w-72 bg-adnova-cream border border-blue-550 rounded-[2rem] overflow-hidden shadow-card flex flex-col">
+              <div key={work.id} className="snap-center shrink-0 w-72 bg-adnova-cream border border-blue-400 rounded-[2rem] overflow-hidden shadow-card flex flex-col">
                 <div className="h-48 overflow-hidden">
                   <img src={work.img} alt={work.title} className="w-full h-full object-cover" />
                 </div>
