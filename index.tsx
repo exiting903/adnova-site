@@ -89,7 +89,7 @@ const reviewsData = [
 
 const Logo = () => (
   <div className="flex items-center gap-2">
-    <img src="/logoo.PNG" alt="Logo" className="h-28 w-auto object-contain -ml-1" />
+    <img src="/logoo.PNG" alt="Logo" className="h-28 w-auto object-contain -ml-3" />
     
   </div>
 );
