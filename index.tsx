@@ -91,7 +91,7 @@ const Logo = () => (
   <div className="flex items-center gap-2">
     <img src="/logoo.PNG" alt="Logo" className="h-10 w-auto object-contain" />
     
-    <span className="font-header font-bold text-lg tracking-widest text-black">ADNOVA</span>
+    <span className="font-header font-bold text-lg tracking-widest text-black"></span>
   </div>
 );
 
