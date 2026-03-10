@@ -519,8 +519,8 @@ const App = () => {
           </div>
 
           <div className="text-center">
-            <a href="tel:+998912345678" className="block text-adnova-blue text-xl font-medium mb-1 hover:text-adnova-red transition-colors">+998 91 234 56 78</a>
-            <a href="#" className="block text-adnova-blue text-lg hover:text-adnova-red transition-colors">@telegram</a>
+            <a href="tel:+998958339513" className="block text-adnova-blue text-xl font-medium mb-1 hover:text-adnova-red transition-colors">+998 95 833 95 13</a>
+            <a href="tg://resolve?domain=ad_nova657" className="block text-adnova-blue text-lg hover:text-adnova-red transition-colors">@ad_nova657</a>
           </div>
         </div>
       </footer>
