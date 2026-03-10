@@ -5,7 +5,7 @@ import { createRoot } from 'react-dom/client';
 
 const heroImage = "/mashinka.jpg";
 
-// 2. ВЫПОЛНЕННЫЕ РАБОТЫ (Добавил 2 блока, теперь всего 5)
+// 2. ВЫПОЛНЕННЫЕ РАБОТЫ (кто прочитал тот лох :D)
 const worksData = [
   {
     id: 1,
