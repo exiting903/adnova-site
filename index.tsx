@@ -181,7 +181,7 @@ const App = () => {
           <Logo />
 
           <div className="flex gap-3">
-            <a href="tel:+998912345678" className="w-10 h-10 border-2 border-adnova-blue rounded-lg flex items-center justify-center text-adnova-blue hover:bg-adnova-blue hover:text-white transition-colors">
+            <a href="tel:+998958339513" className="w-10 h-10 border-2 border-adnova-blue rounded-lg flex items-center justify-center text-adnova-blue hover:bg-adnova-blue hover:text-white transition-colors">
               <i className="fa-solid fa-phone"></i>
             </a>
 
